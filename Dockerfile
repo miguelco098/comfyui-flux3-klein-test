@@ -3,7 +3,7 @@
 #
 # Same base image family and the same request/response contract as the
 # FLUX.2 worker. Models live on the network volume, like the FLUX.2 endpoint.
-FROM runpod/worker-comfyui:5.11.0-base
+FROM runpod/worker-comfyui:5.10.0-base
 
 # --- 1. runpod SDK -----------------------------------------------------------
 # worker-comfyui pins runpod~=1.7.12, which breaks job-take against the current
